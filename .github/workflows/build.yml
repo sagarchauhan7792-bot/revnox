@@ -25,10 +25,10 @@ jobs:
       - name: Run build script
         run: node build.js
 
-      - name: Commit updated index.html
+      - name: Commit updated revnox-media-v4.html
         run: |
           git config user.name  "Revnox CMS Bot"
           git config user.email "cms-bot@revnoxmedia.com"
-          git add index.html
-          git diff --cached --quiet || git commit -m "chore: rebuild index.html from content.json [skip ci]"
+          git add revnox-media-v4.html
+          git diff --cached --quiet || git commit -m "chore: rebuild revnox-media-v4.html from content.json [skip ci]"
           git push
