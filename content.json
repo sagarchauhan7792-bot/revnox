@@ -16,7 +16,7 @@
   "hero": {
     "heading": "Revenue Growth Infrastructure",
     "subheading": "Marketing should translate into measurable business impact. Every Revnox engagement is engineered around the metrics that determine long-term growth.",
-    "cta_primary": "Book a Call",
+    "cta_primary": "call now",
     "cta_secondary": "Pull for a Strategy"
   },
   "stats": {
@@ -75,7 +75,13 @@
     }
   ],
   "nav": {
-    "links": ["Growth", "Services", "Case Studies", "Methodology", "Book a Call"]
+    "links": [
+      "Growth",
+      "Services",
+      "Case Studies",
+      "Methodology",
+      "Book a Call"
+    ]
   },
   "footer": {
     "tagline": "Revenue Growth Infrastructure",
